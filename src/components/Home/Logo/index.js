@@ -2,7 +2,7 @@ import './index.scss'
 import LogoJ from '../../../assets/images/logo-j.png'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial'
+import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 
 const Logo = () => {
   const bgRef = useRef()
